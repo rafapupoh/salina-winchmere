@@ -11,8 +11,8 @@ Este site é seu altar digital — onde sua história, símbolos e feitiços gan
 ## 🌐 Publicação
 
 Disponível via GitHub Pages:  
-https://seu-usuario.github.io/salina-winchmere
 
+(https://rafapupoh.github.io/salina-winchmere/)
 ## 🖋️ Créditos
 
 Criado com intenção e beleza por Raphaela Winchmere  
