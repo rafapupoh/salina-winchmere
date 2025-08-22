@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-image: url('images/textura-salina.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho com imagem ritualística */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(255, 250, 245, 0.85);
+  border-bottom: 1px solid #e4dcd2;
+}
+
+.capa {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  color: #4a3f3f;
+}
+
+.manifesto {
+  font-style: italic;
+  color: #6a5e55;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Conteúdo principal com véu translúcido */
+main {
+  background-color: rgba(255, 250, 245, 0.85);
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(80, 70, 60, 0.05);
+}
+
+h2 {
+  color: #5c4d4d;
+  font-size: 1.6em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.05em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+ul li::before {
+  content: "✦ ";
+  color: #8c6e6e;
+  margin-right: 6px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+/* Rodapé com assinatura ritualística */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+  color: #7a6a5f;
+  border-top: 1px solid #eae4dc;
+  background-color: rgba(255, 250, 245, 0.85);
+  margin-top: 60px;
+}
+
